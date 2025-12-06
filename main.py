@@ -2,8 +2,7 @@ import time
 import sys
 import os
 
-# Changer le répertoire courant vers celui où se trouve le script. 
-# Cela évite les erreurs "file not found" lorsque vous lisez ou écrivez des fichiers.
+
 os.chdir(os.path.dirname(__file__))
 
 #############################################################################################################################
